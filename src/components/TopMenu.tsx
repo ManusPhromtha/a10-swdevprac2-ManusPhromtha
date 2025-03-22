@@ -23,6 +23,10 @@ export default async function TopMenu() {
                     <div className='flex items-center absolute left-0 h-full px-2 text-cyan-600 text-sm' >Sign-In</div>
                 </Link>
             }
+
+            <Link href="/mybooking">
+                <div className='flex items-center absolute left-20 h-full px-2 text-cyan-600 text-sm' >My Booking</div>
+            </Link>
         </div>
     );
 }
